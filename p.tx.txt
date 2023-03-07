@@ -1,0 +1,272 @@
+https://sheetdb.io/api/v1/wda86etf748zr
+<div class="row row1">
+           <div class="col-lg-4">
+               <div class="row">
+              <div class="col-3 inputbox">
+                <label for="name"></label>
+                <input type="text"  name="data[name]" required="required">
+                <span>First Name</span>
+            </div>
+          </div>
+            <div class="row web">
+              <div class="col-3">
+                <label for="phone"></label>
+                <input type="text" placeholder="Mobile Number" name="data[phone]" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <label for="school"></label>
+                <input type="text" placeholder="Your School " name="data[school]" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <label for="email"></label>
+                <input type="text" placeholder="Your Email" name="data[email]" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <label for="college"></label>
+                <input type="text" placeholder="Your Lovable college" name="data[college]" required>
+              </div>
+            </div>
+
+            <div class="row sign">
+              <div class="col-3">
+                <button type="submit" class="btn third">Register</button>
+              </div>
+            </div>
+
+
+.card {
+  border-radius: 50px;
+  display: :inline-block;
+  margin-top: 30px;
+}
+
+.row1 {
+  padding-left: 100px;
+}
+
+.sign {
+  padding-top: 30px;
+}
+
+.start {
+  background-color: red;
+}
+
+.fitting-image {
+  width: 600px;
+  height: 600px;
+  object-fit: <some value>;
+  margin-top: -5.00rem;
+}
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100hv;
+  flex-direction: column;
+  gap:30px;
+  background: #1d2b3a;
+}
+.inputbox
+{
+  position: relative;
+    width:250px;
+}
+.inputbox input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255, 0.25);
+  background: #1d2b3a;
+  border-radius: 5px;
+  outline:none;
+  color: #fff;
+  font-size: 1em;
+}
+.inputbox span{
+  position: absolute;
+  left: 0;
+  top: 0px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgba(255,255,255,0.25);
+  text-transform: uppercase;
+  transition: 0.5s;
+
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span
+{
+  color:#00dfc4;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65;
+  padding: 0 10px;
+  background: #1d2b3a;
+  border-left: 1px solid #00dfc4;
+  border-right: 1px solid #00dfc4;
+}
+
+ <section id="pricing">
+    <h3>Find the True Love of Your Dog's Life Today.</h3>
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 pricing-col">
+        <div class="card">
+          <div class="card-header">
+            <h3>CHOOSE YOUR COLLEGE</h3>
+          </div>
+          <div class="card-body">
+            
+          </div>
+        
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Features -->
+
+  <section id="features">
+
+    <h3>Easy to use.</h3>
+    <p>So easy to use, even your dog could do it.</p>
+
+    <h3>Elite Clientele</h3>
+    <p>We have all the dogs, the greatest dogs.</p>
+
+    <h3>Guaranteed to work.</h3>
+    <p>Find the love of your dog's life or your money back.</p>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+    <img src="images/dog-img.jpg" alt="dog-profile">
+    <em>Pebbles, New York</em>
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img src="images/techcrunch.png" alt="tc-logo">
+    <img src="images/tnw.png" alt="tnw-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo">
+    <img src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+
+    <h3>Chihuahua</h3>
+    <h2>Free</h2>
+    <p>5 Matches Per Day</p>
+    <p>10 Messages Per Day</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Labrador</h3>
+    <h2>$49 / mo</h2>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Mastiff</h3>
+    <h2>$99 / mo</h2>
+    <p>Pirority Listing</p>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright TinDog</p>
+
+  </footer>
+
+
+</body>
+
+</html>
+
+
+
+
+
+var form = document.getElementById('sheetdb-form');
+form.addEventListener("submit", e => {
+  e.preventDefault();
+  fetch(form.action, {
+    method: "POST",
+    body: new FormData(document.getElementById("sheetdb-form")),
+  }).then(
+    response => response.json()
+  ).then((html) => {
+
+    // you can put any JS code here
+    window.open('', '_blank');
+
+  });
+});
